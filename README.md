@@ -51,7 +51,7 @@ lead_time_cancellation.png
 
 ## Prediction Model
 
-Our Gaussian Naive Bayes model correctly classifies roughly 72–75% of all bookings. More importantly, it catches the majority of actual cancellations in advance, giving the front desk team actionable lead time. For a hotel managing 1,000 bookings per month, this translates to flagging 250–280 at-risk reservations early enough to intervene — at the cost of roughly 100–150 unnecessary follow-up calls, a manageable trade-off. A Logistic Regression model further improved accuracy by several percentage points, confirming that lead time, deposit type, and special requests are the most powerful predictive features.
+Our Gaussian Naive Bayes model correctly classifies 77% of all bookings. The key trade-off: it catches about 48% of actual cancellations while keeping false alarms very low at just 5.8%. For a hotel managing 1,000 bookings per month, that means flagging roughly 180 at-risk reservations early enough to intervene, with only about 58 unnecessary follow-up calls. A Logistic Regression model further improved accuracy, confirming that lead time, deposit type, and special requests are the most powerful predictive features.
 
 ## Recommendations
 
