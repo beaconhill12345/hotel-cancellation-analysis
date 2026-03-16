@@ -1,26 +1,4 @@
 
-# Predicting Hotel Cancellations: A Data-Driven Approach to Revenue Protection
-
-**One-line hook:** With 37% of bookings ending in cancellation, this analysis identifies the key warning signs and builds a predictive model to help a Portuguese hotel chain protect millions in annual revenue.
-
----
-
-## The Business Problem
-
-A hotel chain in Portugal is hemorrhaging revenue from last-minute cancellations — more than 1 in 3 bookings never converts into an actual guest stay. Empty rooms can't be resold on short notice, overbooking to compensate creates its own problems (angry guests, costly relocations), and the revenue management team is flying blind without a way to predict which reservations are at risk. If they could flag high-risk bookings weeks in advance, they could proactively intervene — confirm stays, activate waitlists, or adjust pricing to backfill inventory.
-
-## The Data
-
-We analyzed over 119,000 individual hotel bookings spanning 2015–2017, covering both a city hotel and a resort hotel in Portugal. The dataset captures 32 attributes per reservation — everything from how far in advance a guest booked, to what meal plan and room type they requested, to whether they'd stayed before and how they found the hotel (direct, travel agent, corporate, etc.). The target variable is binary: cancelled or not cancelled.
-
-## Key Discoveries
-
-- **Long lead times are the #1 red flag:** Guests who book 6+ months ahead cancel at nearly 3x the rate (~60%) of those who book within a week (~15%). The further out the booking, the more tentative the commitment.
-- **No-deposit OTA bookings are the riskiest channel:** Online Travel Agent bookings made with no deposit cancel at significantly higher rates than direct or corporate bookings. OTAs make cancellation frictionless, and it shows.
-- **Engaged guests don't cancel:** Guests who make even one special request (parking, high floor, crib) cancel at roughly half the rate of those who make none. Repeat guests cancel at just ~15% compared to ~38% for first-timers. Investment in the stay details signals genuine intent.
-- **Room mismatches increase cancellations:** Guests who are assigned a different room type than what they reserved cancel at higher rates — a signal of either availability issues or unmet expectations.
-
-## Visualizing the Story
 
 # Predicting Hotel Cancellations: A Data-Driven Approach to Revenue Protection
 
