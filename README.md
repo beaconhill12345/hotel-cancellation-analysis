@@ -33,4 +33,12 @@ Our Gaussian Naive Bayes model correctly classifies 77% of all bookings. The key
 
 1. **Launch a "Commitment Check" for long-lead bookings:** Send automated confirmation emails at 90, 60, and 30 days before arrival for bookings made 200+ days out, offering early check-in perks for reconfirming. Even a 10–15% reduction in long-lead cancellations could recover hundreds of room-nights per year.
 2. **Require deposits for high-risk OTA bookings:** Implement tiered deposit requirements — no deposit for bookings under 30 days, partial deposit for 30–180 days, and non-refundable deposit for 180+ days. This could reduce the overall cancellation rate by 5–8 percentage points across the OTA channel.
-3. **Invest in repeat guest loyalty:** Repeat guests barely cancel. Enroll every first-time guest who completes a stay into a loyalty program with a rebooking incentive before checkout —
+3. **Invest in repeat guest loyalty:** Repeat guests barely cancel. Enroll every first-time guest who completes a stay into a loyalty program with a rebooking incentive before checkout — this simultaneously reduces OTA dependency and dramatically improves booking reliability.
+
+## Tools & Techniques
+
+Python | Pandas | NumPy | Scikit-Learn | Matplotlib | Seaborn | Gaussian Naive Bayes | Logistic Regression | Google Colab
+
+---
+
+*This project was completed as part of ISOM 835: Predictive Analytics*
