@@ -1,5 +1,3 @@
-
-
 # Predicting Hotel Cancellations: A Data-Driven Approach to Revenue Protection
 
 **One-line hook:** With 37% of bookings ending in cancellation, this analysis identifies the key warning signs and builds a predictive model to help a Portuguese hotel chain protect millions in annual revenue.
@@ -23,7 +21,7 @@ We analyzed over 119,000 individual hotel bookings spanning 2015–2017, coverin
 
 ## Visualizing the Story
 
-lead_time_cancellation.png
+![Cancellation Rate by Lead Time](lead_time_cancellation.png)
 
 *Cancellation rates climb steadily with lead time — bookings made 6+ months ahead cancel at nearly 60%, revealing the hotel's biggest revenue risk window.*
 
@@ -35,12 +33,4 @@ Our Gaussian Naive Bayes model correctly classifies 77% of all bookings. The key
 
 1. **Launch a "Commitment Check" for long-lead bookings:** Send automated confirmation emails at 90, 60, and 30 days before arrival for bookings made 200+ days out, offering early check-in perks for reconfirming. Even a 10–15% reduction in long-lead cancellations could recover hundreds of room-nights per year.
 2. **Require deposits for high-risk OTA bookings:** Implement tiered deposit requirements — no deposit for bookings under 30 days, partial deposit for 30–180 days, and non-refundable deposit for 180+ days. This could reduce the overall cancellation rate by 5–8 percentage points across the OTA channel.
-3. **Invest in repeat guest loyalty:** Repeat guests barely cancel. Enroll every first-time guest who completes a stay into a loyalty program with a rebooking incentive before checkout — this simultaneously reduces OTA dependency and dramatically improves booking reliability.
-
-## Tools & Techniques
-
-Python | Pandas | NumPy | Scikit-Learn | Matplotlib | Seaborn | Gaussian Naive Bayes | Logistic Regression | Google Colab
-
----
-
-*This project was completed as part of ISOM 835: Predictive Analytics*
+3. **Invest in repeat guest loyalty:** Repeat guests barely cancel. Enroll every first-time guest who completes a stay into a loyalty program with a rebooking incentive before checkout —
